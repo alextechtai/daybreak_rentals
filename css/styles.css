@@ -1,7 +1,7 @@
 /* Theme */
 
 main {
-	background: #487eb0;
+	background: black;
 	color: #FAFAFA;
 }
 
@@ -56,23 +56,41 @@ main > .intro {
 	font-weight: 600;
 }
 
-main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+
+.myButton {
+	width: 160px;
+	background-color:#000000;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffc628;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffc628;
+}
+.myButton:hover {
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 
-.icons-social i {
-	padding: 10px;
+a:link {
+  text-decoration: none;
 }
 
-.devto {
-	margin-bottom: -0.20rem;
+a:visited {
+  text-decoration: none;
 }
 
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
