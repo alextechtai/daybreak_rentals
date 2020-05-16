@@ -7,8 +7,18 @@ main {
 
 /* Typography */
 
+@font-face {
+    font-family: 'futuramedium';
+    src: url('futuramed-webfont.woff2') format('woff2'),
+         url('futuramed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'futuramedium', sans-serif;
+	font-weight:normal;
+	font-style:normal;
 }
 
 @media (min-width: 576px) {
@@ -35,10 +45,6 @@ html {
 	}
 }
 
-.icons-social i {
-	font-size: 3em;
-}
-
 /* Custom Styles */
 
 main {
@@ -50,31 +56,40 @@ main {
 	text-align: center;
 }
 
-main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
-}
-
-
-.myButton {
-	width: 160px;
-	background-color:#000000;
-	border-radius:28px;
-	border:1px solid #000000;
+.rentButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background-color:#ffc628;
+	-webkit-border-top-left-radius:30px;
+	-moz-border-radius-topleft:30px;
+	border-top-left-radius:30px;
+	-webkit-border-top-right-radius:30px;
+	-moz-border-radius-topright:30px;
+	border-top-right-radius:30px;
+	-webkit-border-bottom-right-radius:30px;
+	-moz-border-radius-bottomright:30px;
+	border-bottom-right-radius:30px;
+	-webkit-border-bottom-left-radius:30px;
+	-moz-border-radius-bottomleft:30px;
+	border-bottom-left-radius:30px;
+text-indent:0;
+	border:1px solid #eeb44f;
 	display:inline-block;
-	cursor:pointer;
-	color:#ffc628;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
+	/* color:#ffffff; */
+	color: black;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ffc628;
-}
-.myButton:hover {
-	background-color:#ffab23;
-}
-.myButton:active {
+	text-align:center;
+}.rentButton:hover {
+	background-color:#ffb700;
+}.rentButton:active {
 	position:relative;
 	top:1px;
 }
